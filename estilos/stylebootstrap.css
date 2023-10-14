@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-carru {
+    height: 400px;
+    border-top: 2px solid #000;
+    
+    object-fit: cover;
+}
+
+
+.imagen {
+    width: 300px;
+    height: 200px;
+    box-shadow: 1px 1px 4px 1px #000;
+    transition: 0.5s;
+    
+    border-radius: 30px;
+    
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+}
+
+.div_color:hover {
+    background: orange;
+    box-shadow: 1px 1px 4px 1px #000;
+}
+
+.whatsapp_color {
+    color: green;
+    font-size: 40px;
+    transition: font-size 1s;
+}
+
+.whatsapp_color:hover {
+    font-size: 50px;
+}
+.facebook_color {
+    font-size: 40px;
+    transition: font-size 1s;
+}
+
+.facebook_color:hover {
+    font-size: 50px;
+}
+
+.instagram_color {
+    color: red;
+    font-size: 40px;
+    transition: font-size 1s;
+}
+
+.instagram_color:hover {
+    font-size: 50px;
+}
+
+.decoracion_ul {
+list-style: none;
+}

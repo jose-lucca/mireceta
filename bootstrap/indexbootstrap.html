@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta para Pizzas</title>
+
+    <!-- Icono con Favicon-->
+    <link rel="icon" type="image/x-icon" href="../icon/favicon.ico"> <!-- Agrega un icono a la pestaña-->
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!-- Agrega un animacion-->
+
+        <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Mi hoja de estilo-->
+    <link rel="stylesheet" href="../estilos/stylebootstrap.css" type="text/css">
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/c2190a68d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <i class="fa-solid fa-pizza-slice"></i>          
+            Recetario de Pizzas</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../bootstrap/indexbootstrap.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/muzarella_boots.html">Muzzarella</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/rucula_boots.html">Rucula</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/calabresa_boots.html">Calabresa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/napolitana_boots.html">Napolitana</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/nutricion.html">Tabla Nutricional</a>
+              </li>
+            </ul>
+
+            <a class="nav-link d-flex" href="../paginas/formularioContacto.html">Contactame</a>
+          </div>
+        </div>
+      </nav>
+
+<!-- CARRUSEL-->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner contenedor-carrousel">
+    <div class="carousel-item active">
+      <img src="../img/carruzel-pepperoni.jpg" class="d-block w-100 img-carru" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/carruzel-pizza2.jpg" class="d-block w-100 img-carru" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/carruzel-muzza.jpg" class="d-block w-100 img-carru" alt="...">
+    </div>
+  </div>
+</div>
+
+<!-- Menu de pizzas-->
+<main>
+  <div class="container">
+    <div class="row d-flex flex-row justify-content-center mt-5 d-grid gap-1 ">
+      <div class="col-4 border border-warning rounded d-flex justify-content-center p-2">
+        <a href="../bootstrap/muzarella_boots.html" class="muzza_boot" data-bs-toggle="tooltip" data-bs-placement="top" title="Pizza Muzzarella"><img src="../img/muzza2.jpg" alt="Pizza Muzza" class="imagen"></a>
+      </div>
+
+      <div class="col-4 border border-warning rounded d-flex justify-content-center p-2">
+        <a href="../bootstrap/rucula_boots.html"class="rucula_boot" data-bs-toggle="tooltip" data-bs-placement="top" title="Pizza Rúcula"><img src="../img/rucula.jpg" alt="Pizza Rucula" class="imagen"></a>
+      </div>
+
+
+    </div>
+    <div class="row d-flex justify-content-center mt-2 d-grid gap-1">
+      <div class="col-4 border  border-warning rounded d-flex justify-content-center div_color ">
+        <a href="../bootstrap/muzarella_boots.html">
+        <p class="contenedor__div-p m-0">Muzzarella</p>
+        </a>
+
+      </div>
+      <div class="col-4 border border-warning rounded d-flex justify-content-center div_color">
+        <a href="../bootstrap/rucula_boots.html">
+          <p class="contenedor__div-p m-0">Rucula</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row row d-flex flex-row justify-content-center mt-5 d-grid gap-1 ">
+      <div class="col-4 border border-warning rounded d-flex justify-content-center p-2">
+        <a href="../bootstrap/calabresa_boots.html" class="calabresa_boot" data-bs-toggle="tooltip" data-bs-placement="top" title="Pizza Calabresa"><img src="../img/cala2.jpg" alt="Pizza Cala" class="imagen"></a>
+      </div>
+      <div class="col-4 border  border-warning rounded d-flex justify-content-center p-2">
+        <a href="../bootstrap/napolitana_boots.html" class="napo_boot" data-bs-toggle="tooltip" data-bs-placement="top" title="Pizza Napolitana"><img src="../img/napo.jpg" alt="Pizza Napo" class="imagen"></a>
+      </div>
+
+
+    </div>
+    <div class="row d-flex justify-content-center mt-2 d-grid gap-1">
+      <div class="col-4 border border-warning rounded d-flex justify-content-center div_color">
+        <a href="../bootstrap/calabresa_boots.html">
+          <p class="contenedor__div-p m-0">Calabresa</p>
+        </a>
+      </div>
+      <div class="col-4 border border-warning rounded  d-flex justify-content-center div_color">
+        <a href="../bootstrap/napolitana_boots.html">
+          <p class="contenedor__div-p m-0">Napolitana</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+
+<footer>
+  <div class="contanier d-grip gap-5 d-flex justify-content-center mt-5">     
+    <a href="https://wa.me/+543874040112"><i class="fa-brands fa-whatsapp whatsapp_color"></i></a>
+    <a href="www.facebook.com"><i class="fa-brands fa-facebook facebook_color"></i></a>
+    <a href="www.instagram.com"><i class="fa-brands fa-instagram instagram_color"></i></a>
+  </div>
+    <div class="container-fluid d-inline-flex bg-light mt-3 mx-0 d-flex justify-content-center d-grip gap-5 p-3">
+      
+      <a href="./paginas/comentarios.html"><p class="m-0">Comentame</p></a>
+    <a href="./paginas/formularioContacto.html"><p class="m-0">Contactame</p></a>
+</div>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+</body>
+</html>

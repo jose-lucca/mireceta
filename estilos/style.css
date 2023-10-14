@@ -1,0 +1,501 @@
+:root{
+    /* color */
+    --colordiv:#ffbb00;
+    --colorheader: rgb(243, 149, 25);
+    --colorh1: rgb(241, 229, 121);
+    --fotosalsa: url("../img/salsa.jpg")
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ff7d04
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 2px 2px rgb(158, 155, 155);
+    text-align: center;
+    padding: 20px;
+}
+
+.h1_a {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h1_a a {
+    background-color: #ff7d04;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
+.h1_a a:hover {
+    background: turquoise;
+    color: white;
+    
+}
+
+
+.navegacion {
+    background-color: rgb(245, 149, 24);
+    margin-bottom: 15px;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3px;   
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+.navegacion ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 6px;
+    padding: 0 3px;
+  }
+    
+    a {
+        text-decoration: none;
+    }
+p {
+    background-color: white;
+    
+}
+    #apartado{
+       /*border: 2px solid black;*/
+        position: relative;
+        left: 100px;
+    }
+    
+
+.contenedor,  .contenedor2{
+    /* border: 1px solid black; Agrega borde al contenedor de las imagenes*/
+    width: 60%;
+    display: flex;
+    justify-content:  center;
+    align-items: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 5px;
+
+}
+
+
+[class*="contenedor__div"] {
+    /* border: 1px solid black; */
+    background-color: green;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); ;
+}
+
+.imagen {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.contenedor__div-p {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.navegacion [href]:hover {
+    background-color: #000;
+    color: #fff;
+    
+}
+
+#animacion {
+    text-align: right;
+   
+}
+
+/*footer*/
+.footer__ {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.footer__ p {
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px 1px black;
+    border-radius: 3px;
+}
+
+/*font-family: 'Oswald', sans-serif;*/
+/*PAGINA MUZZARELLA*/
+.cabezera__muzza{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header__div{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+}
+
+
+.header__div a {
+    display: inline-block;
+    align-self: center;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px black;
+}
+        
+.div__parrafo {
+    background-color: var(--colorheader);
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.div__parrafo p {
+    background-color: var(--colorheader);
+    color: black;
+    font-weight: bold;
+}
+
+menu {
+    margin-top: 50px;
+}
+
+.fotos_ingredientes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotos_ingredientes img {
+    width: 30%;
+    height: 30%;
+    box-shadow: 2px 2px 5px 2px black;
+    border-radius: 30px;
+}
+
+.ingredientes {
+    border-radius: 30px;
+    border: 2px solid green;
+    
+}
+.ingredientes h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ingredientes ul li {
+    margin-top: 10px;
+list-style: circle;
+}
+
+.preparacion {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor_preparacion{
+    display: flex;
+    margin-top: 40px;
+}
+.contenedor_preparacion video {
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.titulo_y_video {
+    align-self: center;
+}
+
+.titulo_audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.piedepagina_muzza {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px ;
+}
+
+
+.piedepagina_muzza a {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+/* ---PAGINA NUTRICION ---*/
+
+
+.titulo_boton h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 2px 2px rgb(158, 155, 155);
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo_boton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   background: green;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.titulo_boton a {
+ padding: 10px;  
+ background: red; 
+ border: 1px solid black;
+ border-radius: 30px;
+ box-shadow: 1px 1px 2px 1px black;
+}
+
+.titulo_boton a:hover {
+    background: turquoise;
+}
+
+.titulo_parrafo p {
+    font-size: 23px;
+    margin: 0px;
+    background: rgb(245, 149, 24);
+}
+
+.titulo_parrafo span {
+    font-weight: bold;
+}
+
+.tabla {
+    border: 1px double black;
+    margin: 30px auto;
+
+}
+
+
+
+.tabla tr td, .tabla tr th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background: #e7c66c;
+    font-size: 20px;
+}
+
+.tabla tr th {
+    background: #ffbb00;
+    font-size: 21px;
+}
+
+/* ---- Pagina Contactos---- */
+
+.contactos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.contactos i {
+    margin-right: 10px ;
+}
+
+.contactos a {
+    color: green
+}
+
+.fomrulario {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    background: #e2a66d;
+
+}
+
+.coment h2 {
+    margin: 10px 10px;
+}
+
+.coment textarea {
+    margin: 10px 10px;
+}
+.input_a {
+    margin: 10px 10px;
+    font-size: 20px;
+ }
+
+ .envio_reset {
+    display: flex;
+    justify-content: flex-start;
+ }
+ 
+ .envio_reset [type]{
+    font-size: 20px;
+    margin: 10px AUTO;
+    background: #e2a66d;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 2px 10px;
+    box-shadow: 1px 1px 1px 1px black;
+
+ }
+ .envio_reset [type]:hover {
+    background: turquoise;
+ }
+
+.envolvente {
+    display: flex;
+    gap:40px;
+    justify-content: center;
+
+}
+
+.contactos_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contactos_2 a {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contactos_2 i {
+    margin-right: 10px;
+    color: #026302;
+}
+
+.envolvente_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    background: #e2a66d;
+}
+
+.puntuacion h2 {
+    margin: 10px 10px;
+}
+
+.puntuacion select {
+    margin: 10px 10px;
+}
+
+.ubicacion h2 {
+    margin: 10px 10px;
+}
+
+.enlace_solo a {
+    display: inline;
+    align-self: center;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px black;
+    position: absolute;
+    right: 0px;
+    margin: 30px;
+    float: right;
+}
+
+/* --- pagina Salsa---*/
+
+.body_1 {
+    background-image: url("../img/salsa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(243, 247, 4);
+    font-size: 20px;
+
+}
+
+.h1_salsa{
+    margin: 5px auto 10px;
+    width: 80%;
+}
+
+.parrafo_salsa {
+    background: none;
+    margin: 5px auto 30px;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedor_div_varios {
+    display: flex;
+   }
+
+.hs_listas {
+background: #151611;
+border: 1px solid yellow;
+height: 600px;
+opacity: .8;
+}
+
+.hs_listas h2 {
+text-align: center;
+margin-bottom: 10px;
+}
+
+.desordanada {
+background: #151611;
+border: 1px solid yellow;
+width: 80%;
+margin-left: 30px;
+opacity: .8;
+}
+
+.desordanada ol {
+margin: 30px;
+}
+
+/* carruzel */
+
+.img-carru {
+    height: 300px;
+    filter: brightness(50%) !important;
+}
