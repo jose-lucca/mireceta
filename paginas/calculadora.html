@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta para Pizzas</title>
+
+    <!-- HOJA DE ESTILO PROPIA -->
+    <link rel="stylesheet" href="../estilos/style.css" type="text/css">
+
+    <!-- ICONO DE LA PESTAÑA TITULO -->
+    <link rel="icon" type="image/x-icon" href="../icon/favicon.ico"> <!-- Agrega un icono a la pestaña-->
+
+    <!-- ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Agrega un animacion-->
+</head>
+
+<body>
+
+    <header>
+        <div class="h1_a">
+            <h1>RECETAS PARA UNAS PIZZAS DELICIOSAS</h1>
+            <a href="../index.html" class="solo">Volver al Inicio</a>
+        </div>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="../paginas/muzarella.html">Muzzarella</a></li>
+                <li><a href="../paginas/rucula.html">Rucula</a></li>
+                <li><a href="../paginas/calabreza.html">Calabresa</a></li>
+                <li><a href="../paginas/napolitana.html">Napolitana</a></li>
+                <li><a href="../paginas/nutricion.html">Tabla Nutricional</a></li>
+                <li><a href="../paginas/calculadora.html">Aplicaciones</a></li>
+                <li id="apartado"><a href="../paginas/formularioContacto.html">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="titulo_calc">BIEVENIDOS A LA CALCULADORA</h2>
+        <p class="parrafo_calc">Desde aqui podras hacer operaciones basicas como sumar restar multiplicar y dividir</p>
+
+
+<div class="contenedor_calc">
+    <form name="calculadora" class="calcu">
+        <input type="text" name="pantalla" value="" autocomplete="off" readonly id="screen">
+        <div class="botones_calc">
+            <input type="button" value="7" class="boton_calc" onclick="document.calculadora.pantalla.value+='7'">
+            <input type="button" value="8" class="boton_calc" onclick="document.calculadora.pantalla.value+='8'">
+            <input type="button" value="9" class="boton_calc" onclick="document.calculadora.pantalla.value+='9'">
+            <input type="button" value="+" class="boton_calc" onclick="document.calculadora.pantalla.value+='+'">
+        </div>
+
+        <div class="botones_calc">
+            <input type="button" value="4" class="boton_calc" onclick="document.calculadora.pantalla.value+='4'">
+            <input type="button" value="5" class="boton_calc" onclick="document.calculadora.pantalla.value+='5'">
+            <input type="button" value="6"  class="boton_calc" onclick="document.calculadora.pantalla.value+='6'">
+            <input type="button" value="-"  class="boton_calc" onclick="document.calculadora.pantalla.value+='-'">
+        </div>
+
+        <div class="botones_calc">
+
+            <input type="button" value="1" class="boton_calc" onclick="document.calculadora.pantalla.value+='1'">
+            <input type="button" value="2" class="boton_calc" onclick="document.calculadora.pantalla.value+='2'">
+            <input type="button" value="3" class="boton_calc" onclick="document.calculadora.pantalla.value+='3'">
+            <input type="button" value="x" class="boton_calc" onclick="document.calculadora.pantalla.value+='*'">
+        </div>
+
+        <div class="botones_calc">
+
+            <input type="button" value="0" class="boton_calc" onclick="document.calculadora.pantalla.value+='0'">
+            <input type="reset" value="C" class="boton_calc">
+            <input type="button" value="=" class="boton_calc" onclick="document.calculadora.pantalla.value=eval(document.calculadora.pantalla.value)">
+            <input type="button" value="/" class="boton_calc" onclick="document.calculadora.pantalla.value+='/'">
+        </div>
+    </form>
+
+</div>
+
+
+
+<!--          
+<div class="contenedor_calc">
+    <div class="pantalla_calc">
+<input type="text" class="valor_pantalla" placeholder="value">
+    </div>
+    <div class="teclas_calc">
+        <div class="siete_calc botones_calc">7</div>
+        <div class="ocho_calc botones_calc">8</div>
+        <div class="nueve_calc botones_calc">9</div>
+        <div class="multiplicacion_calc botones_calc">*</div>
+    </div>
+    <div class="teclas_calc">
+        <div class="cuatro_calc botones_calc">4</div>
+        <div class="cinco_calc botones_calc">5</div>
+        <div class="seis_calc botones_calc">6</div>
+        <div class="menos_calc botones_calc">-</div>
+    </div>
+    <div class="teclas_calc">
+        <div class="uno_calc botones_calc">1</div>
+        <div class="dos_calc botones_calc">2</div>
+        <div class="tres_calc botones_calc">3</div>
+        <div class="suma_calc botones_calc">+</div>
+    </div>
+    <div class="teclas_calc">
+        <div class="cero_calc botones_calc">0</div>
+        <div class="punto_calc botones_calc">.</div>
+        <div class="dividir_calc botones_calc">/</div>
+        <div class="igual_calc botones_calc">=</div>
+    </div>
+
+
+</div>
+-->
+
+
+
+
+        
+    
+    </main>
+
+    <footer>
+        <div class="footer__">
+            <a href="./paginas/nutricion.html">
+                <p>Tabla Nutricional</p>
+            </a>
+            
+            <a href="./paginas/formularioContacto.html">
+                <p>contactame</p>
+            </a>
+        </div>
+    </footer>
+
+
+<script src="../js/index.js"></script>
+
+</body>
+
+</html>

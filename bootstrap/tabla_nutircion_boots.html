@@ -3,16 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informacion Nutricional</title>
-    <link rel="stylesheet" href="../estilos/style.css" type="text/css">
+    <title>Receta para Pizzas</title>
 
+    <!-- Icono con Favicon-->
+    <link rel="icon" type="image/x-icon" href="../icon/favicon.ico"> <!-- Agrega un icono a la pestaña-->
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!-- Agrega un animacion-->
+
+        <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Mi hoja de estilo-->
+    <link rel="stylesheet" href="../estilos/stylebootstrap.css" type="text/css">
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/c2190a68d2.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <i class="fa-solid fa-pizza-slice"></i>          
+            Recetario de Pizzas</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../bootstrap/indexbootstrap.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/muzarella_boots.html">Muzzarella</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/rucula_boots.html">Rucula</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/calabresa_boots.html">Calabresa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/napolitana_boots.html">Napolitana</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../bootstrap/tabla_nutircion_boots.html">Tabla Nutricional</a>
+              </li>
+            </ul>
+
+            <a class="nav-link d-flex" href="../paginas/formularioContacto.html">Contactame</a>
+          </div>
+        </div>
+      </nav>
+
+
 <div class="titulo_parrafo">
     <div class="titulo_boton">
-        <h2 class="titulo_2">INFORMACION NUTRICIONAL</h2>
-        <a href="../index.html">Volver al Inicio</a>
+        <h2 class="text-center mt-3">INFORMACION NUTRICIONAL</h2>
+        
     </div>
     <div>
         <p><span>Porcion:</span> 1 trozo (90g)</p>
@@ -20,82 +70,86 @@
     </div>
 </div>
 
-
-    <table class="tabla">
-        <tr >
-            <th>Nutrientes</th>
-            <th>100 g</th>
-            <th>Porción</th>          
-        </tr>
-
-        <tr>
-            <td>Energia (Kcal)</td>
+   <table class="table table-success table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Nutrientes</th>
+            <th scope="col">100 g</th>
+            <th scope="col">Porción</th> 
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Energia (Kcal)</th>
             <td>247</td>
             <td>222</td>
-        </tr>
+          </tr>
 
-        <tr>
-            <td>Proteinas (g)</td>
+          <tr>
+            <th scope="row">Proteinas (g)</th>
             <td>16,1</td>
             <td>14,5</td>
-        </tr>
+          </tr>
 
-        <tr>
-            <td>Grasa total (g)</td>
+          <tr>
+            <th scope="row">Grasa total (g)</th>
             <td>9,9</td>
             <td>8,9</td>
-        </tr>
+          </tr>
 
-        <tr>
-            <td>Grasa saturada (g)</td>
+
+          <tr>
+            <th scope="row">Grasa saturada (g)</th>
             <td>3,9</td>
             <td>3,5</td>
-        </tr>
+          </tr>
 
-        <tr>
-            <td>Grasa Monoinsaturada (g)</td>
+
+          <tr>
+            <th scope="row">Grasa Monoinsaturada (g)</th>
             <td>3,4</td>
             <td>3,1</td>
-        </tr>
+          </tr>
 
-        <tr >
-            <td>Grasa poliinsaturada (g)</td>
+          <tr>
+            <th scope="row">Grasa poliinsaturada (g)</th>
             <td>2,5</td>
             <td>2,3</td>
-        </tr>
+          </tr>
 
-        <tr>
-            <td>Ac. grasos trans</td>
+          <tr>
+            <th scope="row">Ac. grasos trans</th>
             <td>0,2</td>
             <td>0,1</td>
-        </tr>
+          </tr>
 
-        <tr>
-            <td>Colesterol (mg)</td>
+          <tr>
+            <th scope="row">Colesterol (mg)</th>
             <td>16,4</td>
             <td>14,7</td>
-        </tr>
+          </tr>
 
-        <tr >
-            <td>H. de Carbono (g)</td>
+          <tr>
+            <th scope="row">H. de Carbono (g)</th>
             <td>23,5</td>
             <td>21.2</td>
-        </tr>
+          </tr>
 
-        <tr>
-            <td>Azúcares totales (g)</td>
+          <tr>
+            <th scope="row">Azúcares totales (g)</th>
             <td>2,0</td>
             <td>1,8</td>
-        </tr>
+          </tr>
 
-        <tr>
-            <td>Sodio (mg)</td>
+          <tr>
+            <th scope="row">Sodio (mg)</th>
             <td>502</td>
             <td>452</td>
-        </tr>
-
-    </table>
-
+          </tr>
+       
+        </tbody>
+      </table>
 
 
 </body>
